@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Faturah_Example' do
+  pod 'Faturah', :path => '../'
+
+  target 'Faturah_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
