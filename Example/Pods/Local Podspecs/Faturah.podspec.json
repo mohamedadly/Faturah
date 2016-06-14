@@ -1,0 +1,22 @@
+{
+  "name": "Faturah",
+  "version": "0.1.0",
+  "summary": "A short description of Faturah.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Faturah",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohamedadly": "eng.mohamed.adly@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Faturah.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Faturah/Classes/**/*"
+}

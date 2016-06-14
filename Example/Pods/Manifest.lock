@@ -1,0 +1,16 @@
+PODS:
+  - Faturah (0.1.0)
+
+DEPENDENCIES:
+  - Faturah (from `../`)
+
+EXTERNAL SOURCES:
+  Faturah:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Faturah: 56416ae3cd8007519e2ce495a928b929c779c239
+
+PODFILE CHECKSUM: 46bcd0239ff4a9259c494acf86a06753056302a2
+
+COCOAPODS: 1.0.1

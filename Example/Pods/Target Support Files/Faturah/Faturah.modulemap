@@ -1,0 +1,6 @@
+framework module Faturah {
+  umbrella header "Faturah-umbrella.h"
+
+  export *
+  module * { export * }
+}
