@@ -7,8 +7,12 @@
 //
 
 #import "FaturahViewController.h"
+#import "Faturah.h"
+
 
 @interface FaturahViewController ()
+
+- (IBAction)payButtonClicked:(UIButton *)sender;
 
 @end
 
@@ -26,4 +30,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)payButtonClicked:(UIButton *)sender
+{
+    [[FaturahTransactionManager sharedManager] generateToken];
+}
 @end

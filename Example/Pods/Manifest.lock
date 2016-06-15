@@ -1,5 +1,11 @@
 PODS:
-  - Faturah (0.1.0)
+  - Faturah (0.1.0):
+    - SoapKit (~> 0.0.1)
+  - ISO8601DateFormatter (0.8)
+  - SoapKit (0.0.1):
+    - SoapKit/Core (= 0.0.1)
+  - SoapKit/Core (0.0.1):
+    - ISO8601DateFormatter (~> 0.7)
 
 DEPENDENCIES:
   - Faturah (from `../`)
@@ -9,7 +15,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Faturah: 56416ae3cd8007519e2ce495a928b929c779c239
+  Faturah: 38c12c1ed2e4702adb694ed1a2c103e1e6259569
+  ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  SoapKit: d29454e8291beee30f60c6f740d9a8e25172f072
 
 PODFILE CHECKSUM: 46bcd0239ff4a9259c494acf86a06753056302a2
 

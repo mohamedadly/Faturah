@@ -1,0 +1,6 @@
+framework module SoapKit {
+  umbrella header "SoapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

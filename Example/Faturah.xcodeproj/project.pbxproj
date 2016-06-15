@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043278AC1D101604001D69EA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043278AB1D101604001D69EA /* Launch Screen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043278AB1D101604001D69EA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0578A6169C8B0507CF16FB75 /* Faturah.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Faturah.podspec; path = ../Faturah.podspec; sourceTree = "<group>"; };
 		15E2F4C0DB45300BD081FC34 /* Pods_Faturah_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faturah_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA65F43A7346B3416F0B82E /* Pods-Faturah_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Faturah_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Faturah_Tests/Pods-Faturah_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				6003F5A6195388D20070C39A /* FaturahViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				043278AB1D101604001D69EA /* Launch Screen.storyboard */,
 			);
 			name = "Example for Faturah";
 			path = Faturah;
@@ -278,6 +281,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				043278AC1D101604001D69EA /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,10 +516,10 @@
 			baseConfigurationReference = F2DD7942579AB15312696136 /* Pods-Faturah_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Faturah/Faturah-Prefix.pch";
 				INFOPLIST_FILE = "Faturah/Faturah-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,10 +532,10 @@
 			baseConfigurationReference = 642E4C03C5D11D26A8D17B1B /* Pods-Faturah_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Faturah/Faturah-Prefix.pch";
 				INFOPLIST_FILE = "Faturah/Faturah-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
