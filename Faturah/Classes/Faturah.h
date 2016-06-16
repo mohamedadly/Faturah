@@ -10,5 +10,6 @@
 #define Faturah_h
 
 #import "FaturahTransactionManager.h"
+#import "FaturahOrder.h"
 
 #endif /* Faturah_h */

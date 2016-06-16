@@ -7,206 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030D2AD8B24B0EE953B8C27CF8C68024 /* FaturahOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE17916E4904BD33D4D91898E26D6FD /* FaturahOrder.m */; };
-		043278C81D115AEB001D69EA /* FaturahOrderItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 043278C61D115AEB001D69EA /* FaturahOrderItem.h */; };
-		043278C91D115AEC001D69EA /* FaturahOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 043278C71D115AEB001D69EA /* FaturahOrderItem.m */; };
-		06E6592DFF2AB4FEDE334934F6E931CB /* FaturahTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A916768679F7D40FA6C144FB708A0AB8 /* FaturahTransactionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FF59B4C9178A2A9CA007A46083EE32F /* FaturahTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD488614A78B85BDCBB6C43C8F8B1D7 /* FaturahTransaction.m */; };
-		29AFE880F0099A0F57CACBFF8BBC69EA /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 58CFE1569740E071013EB561C2E5B0C3 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2DB7E98FDCD57EBD32AA22C5980115EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */; };
-		3FC0C3848D37D77CDDF11766DCB690B1 /* Faturah-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5211D021ADCA4A0F7A8D27241C8D651 /* Faturah-dummy.m */; };
-		45405356A19E96A18CF2DEA1D78BB609 /* SKService.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D089EABBF6A9B1353E602E9C433546 /* SKService.m */; };
-		4893332EE00AB24A3307FB9A39A33071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */; };
-		4D37FE5CBCC01C66800A6B982BBFC803 /* ISO8601DateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEAB2FAED614BD3213462D02DB2AF98 /* ISO8601DateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		549A1517E5FF044DD3DE88BDDA467767 /* SKData+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B45AF83A3E8BF9EE8C787C220E928390 /* SKData+Private.h */; };
-		5614686EEB81951C3B27588B9DE6D39F /* Pods-Faturah_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB052D482F1E813E4F83BCEF240EA09 /* Pods-Faturah_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5675FFA9FB6FC18E1F4AE4A1BBCD0651 /* Pods-Faturah_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6650AC30291161431E89A0373D03A37 /* Pods-Faturah_Example-dummy.m */; };
-		5887B5A0EF62ABA6A6EC933BB7A9986D /* SoapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DA18BDC3BE5A24CA0FCA9D18760732 /* SoapKit-dummy.m */; };
-		5D9854670AD9A9CFD16E58F7757CBC5D /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A51C183B11D4212C266911A6ED83883 /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62E6C4506DD52D07370B43AA597E0AC3 /* ISO8601DateFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BEBB0CB57CC768E8E1FEE60F72F93A4 /* ISO8601DateFormatter.framework */; };
-		69E4D0E2768245328DC7732C9D2B3767 /* SKData+Private.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = B45AF83A3E8BF9EE8C787C220E928390 /* SKData+Private.h */; };
-		6CCC1758D1A5A1EEDD55F34A28C83B30 /* SoapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BDD63FA8AAF797738F8A333C4CAF6612 /* SoapKit.h */; };
-		6E482C162E20FC5D4061C1A906E1A10B /* SoapKit.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = BDD63FA8AAF797738F8A333C4CAF6612 /* SoapKit.h */; };
+		02539D1FEE16AEDFC8129BE463AC644F /* Faturah.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F182626066710E57046595A0E0F145 /* Faturah.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C0245E3693EC3C453DE3F445D023B0C /* FaturahOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B369915B609326CA3172FD8681ACE7 /* FaturahOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C0AF2A5E70892A685AF4AF879BF084 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FE7058CF474A99BB16F899D1A228524 /* SKRequest.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = 9F963E528AC6DBE3C5EEFFFD1962414D /* SKRequest.h */; };
+		13BD1E792A9C55F04D6943E7B19AB3CA /* SKData+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9615519600D66D1BF86BD945B0722B /* SKData+Private.h */; };
+		1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFEC0268C08BCCC9DF7FE623FB6B29F /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20DD8DFDA6DE8205D072DCF2D74E9E13 /* FaturahTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = A134F7AAC329E52CD2B6128A1432A976 /* FaturahTransaction.m */; };
+		384AC39B6E4CCD033DF478DCCDB21420 /* SKService.m in Sources */ = {isa = PBXBuildFile; fileRef = A91F5477FB3FBBE10687FFF31BBB44DD /* SKService.m */; };
+		3E80F19B9293BBAEA27BDFADA2D24281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC601D70C93F4B60A8F13322FDCABA7 /* CoreGraphics.framework */; };
+		3F047EC2D75850B541F2E5454C08EE80 /* FaturahOrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C47719875285C9CF9285D5271DA196EB /* FaturahOrderItem.m */; };
+		4B50BAB85AEDF93892D35E263A8EACD1 /* SKData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C17281489CB36026652AEFB11CF19D /* SKData.m */; };
+		4E3AE526DD940F9225356CAC897794A0 /* SKData+Private.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = 7E9615519600D66D1BF86BD945B0722B /* SKData+Private.h */; };
+		55BFAEFA18DF792A1498A6D86077E2ED /* FaturahOrderItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 24000DA1CFBABFD16CC92F8F555ED17C /* FaturahOrderItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56B5B91DF7CC8C1C8B37EFF06879FD64 /* GDataXMLNode.h in Copy Util Public Headers */ = {isa = PBXBuildFile; fileRef = 60ADF58089670B17106FE1DE7572E3BD /* GDataXMLNode.h */; };
+		57BFEE84E78CFD476054F54C3254A9BE /* Pods-Faturah_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6650AC30291161431E89A0373D03A37 /* Pods-Faturah_Example-dummy.m */; };
+		5CF572659DDE67B50F4D5A431623233D /* FaturahOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E59E47C615E90F6F6DFD984C153E3EF /* FaturahOrder.m */; };
+		5F8FACED49E5C21287EF6ADA80A02172 /* SoapKit.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = FD6B6806BBBAA3B57E47C0D45DAAABC4 /* SoapKit.h */; };
+		60E730A6D5A6CBEDFA27B82B35A53A91 /* SKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F963E528AC6DBE3C5EEFFFD1962414D /* SKRequest.h */; };
+		6AAA849D28DDBB16884F1A6B91E135B5 /* SKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3B80CC6FD7EE986687B59B04819930 /* SKRequest.m */; };
+		6E1F77E7BB3B39A85FB8B0E2DC9CC749 /* Faturah-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5211D021ADCA4A0F7A8D27241C8D651 /* Faturah-dummy.m */; };
 		6E846AA7855D07A97C41A2740C087043 /* Pods-Faturah_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6A60ED48E4473010AA7E19027D072B /* Pods-Faturah_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72386F5F87FCF7D3140D1E08333F745D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */; };
+		772A2D7A16396C92206C4F8C0BAB8BB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */; };
+		781786866E6F58B25679CD44F02808CE /* FaturahTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5709D948147791CF3564D6A2A2B88B3 /* FaturahTransactionManager.m */; };
+		7E3AE31CA74C85E3DC8776D3181CC273 /* Faturah-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274613E77438FA7CEB9587F5FC92761B /* Faturah-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F0B456BA3E07E7E066946DA4CDD3174 /* Pods-Faturah_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C86001ADDEC3E1C5BDE2A54EB7B9C3DF /* Pods-Faturah_Tests-dummy.m */; };
-		881962664C2D51BCB2952D21023D2F16 /* SKRequest.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = 4DBC22824CE0904769F4ECD77C3490DE /* SKRequest.h */; };
-		95DDD8A934338D8734998D49C26C2037 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D289ED41F094D5A551C5BA3EA8367F9C /* GDataXMLNode.m */; };
-		A0245E3D4BEB39925DACD863A80AFED1 /* SKData.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = 5EBF6FCB96717F933D403D481B22552E /* SKData.h */; };
-		A8426B8E93AC90FDAE7FBF8B8322EDCD /* Faturah.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5CA5F505D98135799EA66119B74672 /* Faturah.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC5C20EAEBF0A821C454C6721E813CFC /* SKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4492169A51A2DEFE118F8330909ECC94 /* SKRequest.m */; };
-		AD03F7AD81D311310DD7A0BBFAA15FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */; };
-		BEA2F8BD6A707F35F960B1D13F8291A8 /* SoapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41D1E11D204BD5DC182BF43D2ACC03C /* SoapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0A8758B1273D566B8375E82BE57658C /* SKData.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBF6FCB96717F933D403D481B22552E /* SKData.h */; };
-		C0C5760650EBB4B72F0921943F5F900C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */; };
-		C22091A04412115FEF3BACA9B26B1B04 /* FaturahOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FC8A0FEC4434A6E4BA3E90D15F5DDB /* FaturahOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D206A31C81D262017F5FC180E4877B7E /* SKData.m in Sources */ = {isa = PBXBuildFile; fileRef = B76436A894797AEF81E4927D15B57D58 /* SKData.m */; };
-		D2CEE0ECBA394A607520CB425DF221FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */; };
-		D4DC6616B2B15E033FA578E0FBCF0B5E /* SKService.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = ECAAE80DC8F322BD9687878A1618B316 /* SKService.h */; };
-		D8ABA754488B02869D01472B873F7547 /* ISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 748DF95C270152FF8D68E5D8361F6E5F /* ISO8601DateFormatter-dummy.m */; };
-		DB2F35D9F9DF111CECB496C5BD189839 /* FaturahTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF5C976F0B255749C58997551D4FB0C /* FaturahTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E02EBD37F64FC74D618821FA6FB263BD /* Faturah-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 274613E77438FA7CEB9587F5FC92761B /* Faturah-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E39BA819473F04BCA68B99C750680C36 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6528AFB41101A47D852328BA4BF10C /* GDataXMLNode.h */; };
-		F03AC2B9744C0D78D16F0E3247D7E487 /* SKService.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAAE80DC8F322BD9687878A1618B316 /* SKService.h */; };
-		F06B8920D183199818375AECAD796182 /* GDataXMLNode.h in Copy Util Public Headers */ = {isa = PBXBuildFile; fileRef = 9C6528AFB41101A47D852328BA4BF10C /* GDataXMLNode.h */; };
-		F4243880B19DF0625120F44E3D698F14 /* SoapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D51E0CBB15BB594BE2E2411BA687773 /* SoapKit.framework */; };
-		FC852F24BF9161470A6C8E8E0C67AF12 /* FaturahTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B1ACD5CE97729AA57CE8C4CF92796 /* FaturahTransactionManager.m */; };
-		FCCA20397D2CDE324E397A63CC09BD08 /* SKRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DBC22824CE0904769F4ECD77C3490DE /* SKRequest.h */; };
+		865CD9CE7E7BE676712E6B08282C247A /* Pods-Faturah_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFB052D482F1E813E4F83BCEF240EA09 /* Pods-Faturah_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CF7FB527B326EC0853EDB98E98C4448 /* SoapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD5446A2A23E57D3860A6F6CF2B8763 /* SoapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		935C82A78C4F8DE45A35DFB8B9A318B8 /* SoapKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6B6806BBBAA3B57E47C0D45DAAABC4 /* SoapKit.h */; };
+		94C9D6D31B44A065D7A92849AF936D99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */; };
+		967DFEDFC072AC7B0F4DD0589A5925FB /* SKData.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = A3071EE34484558B21C77931ABF0858A /* SKData.h */; };
+		97442A2A4BBEE53F19FD5A600854BB7A /* ISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C16A98040A09277AA833C74069DF0369 /* ISO8601DateFormatter-dummy.m */; };
+		9B10435C50B7F47B9BF742AA24B5CD58 /* SKService.h in Copy Soap Public Headers */ = {isa = PBXBuildFile; fileRef = 08F0D0A3974DE34F903C0BDCB265C50C /* SKService.h */; };
+		9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9706465F3698DF594454E39FD7D62637 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A4F4F053DDE82D240C2849D8E5EBCE70 /* SoapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66784FB66C61660447ACB885B9915EE /* SoapKit.framework */; };
+		A7FAED95B718FC88F450CE63A5152407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */; };
+		AB9F58C3E345A6392AAF394982078F05 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 60ADF58089670B17106FE1DE7572E3BD /* GDataXMLNode.h */; };
+		AD03F7AD81D311310DD7A0BBFAA15FFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */; };
+		ADF65CBDB157B31559B3EB66D92A7841 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D389460115033E1236016902A85C109 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B14198A29A295D88DD3053FA093B4E48 /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15886E1D5D4552F53A97F42A6BC4C751 /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7AC83FC718B9E7984271DB422FA1AC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */; };
+		BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6B8DE7578D5B20977E352BEE3C5CAC /* MBProgressHUD-dummy.m */; };
+		CB57EC8A5D4659DB023250D52079E738 /* ISO8601DateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA61B6746450DA06EE73DF32DF58CFDB /* ISO8601DateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC6D8B2D846547FF947C29B99DEAF04 /* FaturahTransactionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3525812E5DE5E2DA0B29D003ADE78DAE /* FaturahTransactionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2A16FAD1ABB8CA2A50E9076C802A66B /* FaturahTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C32B1DD1FB161F6EB3F1FDA18634B13 /* FaturahTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33121DD6875D85975C25C7F8C757F65 /* ISO8601DateFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0DCA28D4A264F901939768E37D7029 /* ISO8601DateFormatter.framework */; };
+		E0656BCC606788DDF0509813EFF68346 /* SoapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3608C2461D5A784FD7A61D5F77C393F3 /* SoapKit-dummy.m */; };
+		E3EABDAAA0116F42B893EFE35EE2F7D5 /* SKService.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F0D0A3974DE34F903C0BDCB265C50C /* SKService.h */; };
+		E4FF43B6432443F7F6B2321051BA2AFE /* SKData.h in Headers */ = {isa = PBXBuildFile; fileRef = A3071EE34484558B21C77931ABF0858A /* SKData.h */; };
+		E7E845D129BE8BA10AD1E48B1E0DB6AC /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A04A4616D7969002B25D29FC898D7591 /* GDataXMLNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00A81228ADA4AFA082FE8D2B3D4410D7 /* PBXContainerItemProxy */ = {
+		0C549F900434567A2872C5EF3284E31D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7BDF4F72605FF1B476B4126D7311A842;
+			remoteGlobalIDString = C2491BCEEC5142965AED30AE211A39FD;
+			remoteInfo = SoapKit;
+		};
+		39D5E6F7705538FE7A2C535FACB7582E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 016E282B265680F4BBE41430295F64C6;
+			remoteInfo = ISO8601DateFormatter;
+		};
+		4039DB8DCBA1243A73FA83AF866F44CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 501784464D53FC6A08F6A1352701A9B8;
 			remoteInfo = Faturah;
 		};
-		389C48CC0BE68BBC0D5859A973B5E0C7 /* PBXContainerItemProxy */ = {
+		A68280C89A16F0EFDDF3DCCE4807A6E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1555CF099827FD737E8F3EE24323E953;
-			remoteInfo = ISO8601DateFormatter;
-		};
-		4E6148A4BF360C27DB280F35483BC0C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4682CCF635B2FF1359941297C7619EBA;
+			remoteGlobalIDString = C2491BCEEC5142965AED30AE211A39FD;
 			remoteInfo = SoapKit;
 		};
-		7F18EBB6AC390AB9FDB2A4F8BD786FC3 /* PBXContainerItemProxy */ = {
+		E3B46482D754D86961FA0520FA9B81B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4682CCF635B2FF1359941297C7619EBA;
-			remoteInfo = SoapKit;
-		};
-		B3354F868E9F37E1D13A70F4D4825857 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1555CF099827FD737E8F3EE24323E953;
+			remoteGlobalIDString = 016E282B265680F4BBE41430295F64C6;
 			remoteInfo = ISO8601DateFormatter;
+		};
+		F2B0C3EFAAC891E2A7E1D651DE579581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61CE3B6DFA1FE6B3E296965C76C0E10;
+			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9B05B8A0D8144DBFE519478960291F1A /* Copy . Public Headers */ = {
+		1BD583EF9943D62D3813CFADB6DA8371 /* Copy . Public Headers */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
 			dstSubfolderSpec = 16;
 			files = (
-				6E482C162E20FC5D4061C1A906E1A10B /* SoapKit.h in Copy . Public Headers */,
+				5F8FACED49E5C21287EF6ADA80A02172 /* SoapKit.h in Copy . Public Headers */,
 			);
 			name = "Copy . Public Headers";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1DDF1E1F67A3BACECCDC822F784F91D /* Copy Soap Public Headers */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/Soap";
-			dstSubfolderSpec = 16;
-			files = (
-				69E4D0E2768245328DC7732C9D2B3767 /* SKData+Private.h in Copy Soap Public Headers */,
-				A0245E3D4BEB39925DACD863A80AFED1 /* SKData.h in Copy Soap Public Headers */,
-				881962664C2D51BCB2952D21023D2F16 /* SKRequest.h in Copy Soap Public Headers */,
-				D4DC6616B2B15E033FA578E0FBCF0B5E /* SKService.h in Copy Soap Public Headers */,
-			);
-			name = "Copy Soap Public Headers";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2FDF271682FE931C14762743CC80D7B /* Copy Util Public Headers */ = {
+		9ABFBA35F0EC65D0C0A8409C36F5BFD7 /* Copy Util Public Headers */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/Util";
 			dstSubfolderSpec = 16;
 			files = (
-				F06B8920D183199818375AECAD796182 /* GDataXMLNode.h in Copy Util Public Headers */,
+				56B5B91DF7CC8C1C8B37EFF06879FD64 /* GDataXMLNode.h in Copy Util Public Headers */,
 			);
 			name = "Copy Util Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A0A10A147C41CEACD7E52588AA37FE /* Copy Soap Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/Soap";
+			dstSubfolderSpec = 16;
+			files = (
+				4E3AE526DD940F9225356CAC897794A0 /* SKData+Private.h in Copy Soap Public Headers */,
+				967DFEDFC072AC7B0F4DD0589A5925FB /* SKData.h in Copy Soap Public Headers */,
+				0FE7058CF474A99BB16F899D1A228524 /* SKRequest.h in Copy Soap Public Headers */,
+				9B10435C50B7F47B9BF742AA24B5CD58 /* SKService.h in Copy Soap Public Headers */,
+			);
+			name = "Copy Soap Public Headers";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		043278C61D115AEB001D69EA /* FaturahOrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaturahOrderItem.h; sourceTree = "<group>"; };
-		043278C71D115AEB001D69EA /* FaturahOrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaturahOrderItem.m; sourceTree = "<group>"; };
 		0483E1FFC0B20E44429460975651B0ED /* Pods-Faturah_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Faturah_Tests-resources.sh"; sourceTree = "<group>"; };
-		0A981F2F24A6BCE02ADC9A0CBBB21585 /* SoapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoapKit-prefix.pch"; sourceTree = "<group>"; };
-		0F9106DE2A3F02D924EF4E49EFB50DDF /* Faturah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Faturah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07341DAD0BD5AC59FCA1DEF9E289DCD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F0D0A3974DE34F903C0BDCB265C50C /* SKService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKService.h; path = SoapKit/Soap/SKService.h; sourceTree = "<group>"; };
+		0E13EC9D7495576D9DD6D1227BF3A175 /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15886E1D5D4552F53A97F42A6BC4C751 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
 		186961985255ECCA29A56A2B8835F7A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BEBB0CB57CC768E8E1FEE60F72F93A4 /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D51E0CBB15BB594BE2E2411BA687773 /* SoapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F17B1EEB94C05E505329645EC0474E0 /* ISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601DateFormatter.xcconfig; sourceTree = "<group>"; };
+		18C17281489CB36026652AEFB11CF19D /* SKData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKData.m; path = SoapKit/Soap/SKData.m; sourceTree = "<group>"; };
 		200EC9260FC1183174CBE64B35309B67 /* Pods-Faturah_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Faturah_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24000DA1CFBABFD16CC92F8F555ED17C /* FaturahOrderItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahOrderItem.h; sourceTree = "<group>"; };
 		274613E77438FA7CEB9587F5FC92761B /* Faturah-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Faturah-umbrella.h"; sourceTree = "<group>"; };
-		2E5CA5F505D98135799EA66119B74672 /* Faturah.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Faturah.h; sourceTree = "<group>"; };
-		2EF5C976F0B255749C58997551D4FB0C /* FaturahTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahTransaction.h; sourceTree = "<group>"; };
+		2A7D4CDAA81A802ED453C3AC91C197BF /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		3525812E5DE5E2DA0B29D003ADE78DAE /* FaturahTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahTransactionManager.h; sourceTree = "<group>"; };
+		3608C2461D5A784FD7A61D5F77C393F3 /* SoapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SoapKit-dummy.m"; sourceTree = "<group>"; };
 		38C569A12223662F38F5D9DF50FA8223 /* Pods-Faturah_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Faturah_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A51C183B11D4212C266911A6ED83883 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
 		3C1D5F968D048D135B33BDFAEFC7A8A3 /* Faturah.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Faturah.modulemap; sourceTree = "<group>"; };
-		42D089EABBF6A9B1353E602E9C433546 /* SKService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKService.m; path = SoapKit/Soap/SKService.m; sourceTree = "<group>"; };
+		3FC601D70C93F4B60A8F13322FDCABA7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		41DF0EBCC3CA5199E3AF93CA9BFBC551 /* SoapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SoapKit.modulemap; sourceTree = "<group>"; };
 		438A02FA25C6186BE1D5DB2C96D2CD2B /* Pods-Faturah_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Faturah_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4492169A51A2DEFE118F8330909ECC94 /* SKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKRequest.m; path = SoapKit/Soap/SKRequest.m; sourceTree = "<group>"; };
 		44E4B8B92AAD272D18FB2248D4068605 /* Pods-Faturah_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Faturah_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		45530E24ECF7D93FE43B0B6630D11EFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		473E358E4BF1E4B35A8FCCC01FED9C0E /* ISO8601DateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ISO8601DateFormatter.modulemap; sourceTree = "<group>"; };
+		4728DCE88F7654CFFCABBAC783AE74E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B369915B609326CA3172FD8681ACE7 /* FaturahOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahOrder.h; sourceTree = "<group>"; };
+		4BFEC0268C08BCCC9DF7FE623FB6B29F /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		4C6A60ED48E4473010AA7E19027D072B /* Pods-Faturah_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Faturah_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4DBC22824CE0904769F4ECD77C3490DE /* SKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRequest.h; path = SoapKit/Soap/SKRequest.h; sourceTree = "<group>"; };
+		4E59E47C615E90F6F6DFD984C153E3EF /* FaturahOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahOrder.m; sourceTree = "<group>"; };
 		506DC56EBF5EF877EC568A2011451650 /* Pods-Faturah_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Faturah_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		52C0AF2A5E70892A685AF4AF879BF084 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		52D2343DCAC07E572EDF432CAAB66FCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		58CFE1569740E071013EB561C2E5B0C3 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
-		5EBF6FCB96717F933D403D481B22552E /* SKData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKData.h; path = SoapKit/Soap/SKData.h; sourceTree = "<group>"; };
+		53F182626066710E57046595A0E0F145 /* Faturah.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Faturah.h; sourceTree = "<group>"; };
+		580E29F5EB45FDA8FFB17A701A9506A8 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		60ADF58089670B17106FE1DE7572E3BD /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = SoapKit/Util/GDataXMLNode.h; sourceTree = "<group>"; };
+		65538AFA9EB56F2E5C0F4F3EF384CD31 /* ISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
 		659472730B96EE63CC5D2FAF2E1A23C0 /* Pods-Faturah_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Faturah_Tests.modulemap"; sourceTree = "<group>"; };
-		6B081B3C05B177BB8354BDFDF6671ADE /* ISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		6D389460115033E1236016902A85C109 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
 		70F589F4665D9F4438EB7B2C38FDDC1E /* Pods-Faturah_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Faturah_Example-frameworks.sh"; sourceTree = "<group>"; };
-		71D66AEA6D485FA6BA7821AFB627B0F7 /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7263D7B04C1CFD275E101338E2AFC396 /* SoapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7351C69878F669EBD4DDEDAEAECD5457 /* Pods-Faturah_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Faturah_Example.modulemap"; sourceTree = "<group>"; };
-		748DF95C270152FF8D68E5D8361F6E5F /* ISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
 		7D475408A48D9EC0EDA1EE82EC890A12 /* Pods-Faturah_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Faturah_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D6B8DE7578D5B20977E352BEE3C5CAC /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		7E4D02614BB92C2DFB896D1C9E519B14 /* Pods-Faturah_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Faturah_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F8B1ACD5CE97729AA57CE8C4CF92796 /* FaturahTransactionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahTransactionManager.m; sourceTree = "<group>"; };
+		7E9615519600D66D1BF86BD945B0722B /* SKData+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKData+Private.h"; path = "SoapKit/Soap/SKData+Private.h"; sourceTree = "<group>"; };
+		80B9A2D0331A3ACF61D522BC3458CB30 /* SoapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoapKit.xcconfig; sourceTree = "<group>"; };
+		8EBCE1DC61518438F92BFEC7EC2D7EC2 /* SoapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoapKit-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C6528AFB41101A47D852328BA4BF10C /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = SoapKit/Util/GDataXMLNode.h; sourceTree = "<group>"; };
-		9FD488614A78B85BDCBB6C43C8F8B1D7 /* FaturahTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahTransaction.m; sourceTree = "<group>"; };
-		A5FC8A0FEC4434A6E4BA3E90D15F5DDB /* FaturahOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahOrder.h; sourceTree = "<group>"; };
-		A916768679F7D40FA6C144FB708A0AB8 /* FaturahTransactionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahTransactionManager.h; sourceTree = "<group>"; };
-		ACE17916E4904BD33D4D91898E26D6FD /* FaturahOrder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahOrder.m; sourceTree = "<group>"; };
+		94234C8F8C41905A8620246C1A6EDA13 /* Faturah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Faturah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9706465F3698DF594454E39FD7D62637 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		97CB54A99F4871952C08317CA188222B /* ISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISO8601DateFormatter.xcconfig; sourceTree = "<group>"; };
+		9C32B1DD1FB161F6EB3F1FDA18634B13 /* FaturahTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FaturahTransaction.h; sourceTree = "<group>"; };
+		9F963E528AC6DBE3C5EEFFFD1962414D /* SKRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRequest.h; path = SoapKit/Soap/SKRequest.h; sourceTree = "<group>"; };
+		A04A4616D7969002B25D29FC898D7591 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = SoapKit/Util/GDataXMLNode.m; sourceTree = "<group>"; };
+		A134F7AAC329E52CD2B6128A1432A976 /* FaturahTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahTransaction.m; sourceTree = "<group>"; };
+		A3071EE34484558B21C77931ABF0858A /* SKData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKData.h; path = SoapKit/Soap/SKData.h; sourceTree = "<group>"; };
+		A91F5477FB3FBBE10687FFF31BBB44DD /* SKService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKService.m; path = SoapKit/Soap/SKService.m; sourceTree = "<group>"; };
+		AAD61DBB62A5886A60AE6200AE4FFFA9 /* Pods_Faturah_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faturah_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		AFB052D482F1E813E4F83BCEF240EA09 /* Pods-Faturah_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Faturah_Example-umbrella.h"; sourceTree = "<group>"; };
-		B345559F32B20D9748A05A105EB852AB /* SoapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SoapKit.modulemap; sourceTree = "<group>"; };
-		B45AF83A3E8BF9EE8C787C220E928390 /* SKData+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKData+Private.h"; path = "SoapKit/Soap/SKData+Private.h"; sourceTree = "<group>"; };
-		B76436A894797AEF81E4927D15B57D58 /* SKData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKData.m; path = SoapKit/Soap/SKData.m; sourceTree = "<group>"; };
-		BDD63FA8AAF797738F8A333C4CAF6612 /* SoapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapKit.h; path = SoapKit/SoapKit.h; sourceTree = "<group>"; };
-		C2FED4D7317C8AF912D0129FBBC64D88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C41D1E11D204BD5DC182BF43D2ACC03C /* SoapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoapKit-umbrella.h"; sourceTree = "<group>"; };
+		B5709D948147791CF3564D6A2A2B88B3 /* FaturahTransactionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahTransactionManager.m; sourceTree = "<group>"; };
+		B95E1974ED1526D99A5616E393407D08 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		BA0DCA28D4A264F901939768E37D7029 /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16A98040A09277AA833C74069DF0369 /* ISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
 		C4685F194611580E5560A7CDE3CCF777 /* Faturah.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Faturah.xcconfig; sourceTree = "<group>"; };
+		C47719875285C9CF9285D5271DA196EB /* FaturahOrderItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FaturahOrderItem.m; sourceTree = "<group>"; };
+		C4C01FF9E9202B7C25ADB2F3555D2A3C /* SoapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66784FB66C61660447ACB885B9915EE /* SoapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SoapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66A9532F59A96ADDBF15214E6765198 /* ISO8601DateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ISO8601DateFormatter.modulemap; sourceTree = "<group>"; };
 		C86001ADDEC3E1C5BDE2A54EB7B9C3DF /* Pods-Faturah_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Faturah_Tests-dummy.m"; sourceTree = "<group>"; };
+		CA3B80CC6FD7EE986687B59B04819930 /* SKRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKRequest.m; path = SoapKit/Soap/SKRequest.m; sourceTree = "<group>"; };
 		CEF88F7B3F001975A246053FDAB33D25 /* Faturah-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Faturah-prefix.pch"; sourceTree = "<group>"; };
-		D289ED41F094D5A551C5BA3EA8367F9C /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = SoapKit/Util/GDataXMLNode.m; sourceTree = "<group>"; };
 		D41DE564059C1FB9671FBC1DA171DAA1 /* Pods-Faturah_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Faturah_Example-resources.sh"; sourceTree = "<group>"; };
-		D4DA18BDC3BE5A24CA0FCA9D18760732 /* SoapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SoapKit-dummy.m"; sourceTree = "<group>"; };
 		D5211D021ADCA4A0F7A8D27241C8D651 /* Faturah-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Faturah-dummy.m"; sourceTree = "<group>"; };
+		D5E398CC45A29988A37C65A5B5BD5BEA /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D822A72630DC7C7654445F8A6C1EED91 /* Pods-Faturah_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Faturah_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E6A02987100112A39D9FF417E35F97CB /* Pods-Faturah_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Faturah_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7126C6738D204C40A4AB65879332191 /* Pods_Faturah_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faturah_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAEAB2FAED614BD3213462D02DB2AF98 /* ISO8601DateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-umbrella.h"; sourceTree = "<group>"; };
-		ECAAE80DC8F322BD9687878A1618B316 /* SKService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKService.h; path = SoapKit/Soap/SKService.h; sourceTree = "<group>"; };
-		F24B1A5A6EE12DD1591768BCAE2DDEAB /* Pods_Faturah_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faturah_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA61B6746450DA06EE73DF32DF58CFDB /* ISO8601DateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISO8601DateFormatter-umbrella.h"; sourceTree = "<group>"; };
+		EBD5446A2A23E57D3860A6F6CF2B8763 /* SoapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SoapKit-umbrella.h"; sourceTree = "<group>"; };
+		ECD9110BB6C033A5454B223882773233 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEABF04BDD5F9A66BAA30395DD08E707 /* Pods_Faturah_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Faturah_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CE62715989C0A2ACF0ED736E407026 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6650AC30291161431E89A0373D03A37 /* Pods-Faturah_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Faturah_Example-dummy.m"; sourceTree = "<group>"; };
-		FEEC3A519EE08072222CC1E4B5B323A2 /* SoapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SoapKit.xcconfig; sourceTree = "<group>"; };
+		FD6B6806BBBAA3B57E47C0D45DAAABC4 /* SoapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SoapKit.h; path = SoapKit/SoapKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A1981507514C86A085A36FB51316CEC /* Frameworks */ = {
+		6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4893332EE00AB24A3307FB9A39A33071 /* Foundation.framework in Frameworks */,
+				3E80F19B9293BBAEA27BDFADA2D24281 /* CoreGraphics.framework in Frameworks */,
+				772A2D7A16396C92206C4F8C0BAB8BB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,59 +242,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F745E109C321702366F409014F54B07 /* Frameworks */ = {
+		86AA99145404206DCFF829252D4B9FF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C5760650EBB4B72F0921943F5F900C /* Foundation.framework in Frameworks */,
-				62E6C4506DD52D07370B43AA597E0AC3 /* ISO8601DateFormatter.framework in Frameworks */,
+				B7AC83FC718B9E7984271DB422FA1AC4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C03AFF28767E5CC69539D647486EB025 /* Frameworks */ = {
+		9ECDCE414B1D1605BDC8FA8AA9E86E20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2CEE0ECBA394A607520CB425DF221FF /* Foundation.framework in Frameworks */,
-				F4243880B19DF0625120F44E3D698F14 /* SoapKit.framework in Frameworks */,
+				A7FAED95B718FC88F450CE63A5152407 /* Foundation.framework in Frameworks */,
+				A4F4F053DDE82D240C2849D8E5EBCE70 /* SoapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F91F49D5C8F68690C4143F61CF6E1477 /* Frameworks */ = {
+		A0FC48F0064AD2DEA55950301397CFA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB7E98FDCD57EBD32AA22C5980115EF /* Foundation.framework in Frameworks */,
+				72386F5F87FCF7D3140D1E08333F745D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A548935396216C74203BAD572B682982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C9D6D31B44A065D7A92849AF936D99 /* Foundation.framework in Frameworks */,
+				D33121DD6875D85975C25C7F8C757F65 /* ISO8601DateFormatter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63EF6DAAFD64A0E80AD6ACE32B53C432 /* Core */ = {
+		4D35A99CDCB484824104B825B6777BD3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C6528AFB41101A47D852328BA4BF10C /* GDataXMLNode.h */,
-				D289ED41F094D5A551C5BA3EA8367F9C /* GDataXMLNode.m */,
-				5EBF6FCB96717F933D403D481B22552E /* SKData.h */,
-				B76436A894797AEF81E4927D15B57D58 /* SKData.m */,
-				B45AF83A3E8BF9EE8C787C220E928390 /* SKData+Private.h */,
-				4DBC22824CE0904769F4ECD77C3490DE /* SKRequest.h */,
-				4492169A51A2DEFE118F8330909ECC94 /* SKRequest.m */,
-				ECAAE80DC8F322BD9687878A1618B316 /* SKService.h */,
-				42D089EABBF6A9B1353E602E9C433546 /* SKService.m */,
-				BDD63FA8AAF797738F8A333C4CAF6612 /* SoapKit.h */,
+				4728DCE88F7654CFFCABBAC783AE74E2 /* Info.plist */,
+				41DF0EBCC3CA5199E3AF93CA9BFBC551 /* SoapKit.modulemap */,
+				80B9A2D0331A3ACF61D522BC3458CB30 /* SoapKit.xcconfig */,
+				3608C2461D5A784FD7A61D5F77C393F3 /* SoapKit-dummy.m */,
+				8EBCE1DC61518438F92BFEC7EC2D7EC2 /* SoapKit-prefix.pch */,
+				EBD5446A2A23E57D3860A6F6CF2B8763 /* SoapKit-umbrella.h */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "../Target Support Files/SoapKit";
 			sourceTree = "<group>";
 		};
-		6687BE55DB5882D8F079FF8EF1F561DA /* Pods */ = {
+		516162B9693F5394DA6EEC8FC16943B6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				86929C9C798880BE2EF6C3C7AE4AE5B0 /* ISO8601DateFormatter */,
-				8082E5FCD7053469BF6412EE9EDEAAAA /* SoapKit */,
+				ECD9110BB6C033A5454B223882773233 /* Info.plist */,
+				C66A9532F59A96ADDBF15214E6765198 /* ISO8601DateFormatter.modulemap */,
+				97CB54A99F4871952C08317CA188222B /* ISO8601DateFormatter.xcconfig */,
+				C16A98040A09277AA833C74069DF0369 /* ISO8601DateFormatter-dummy.m */,
+				65538AFA9EB56F2E5C0F4F3EF384CD31 /* ISO8601DateFormatter-prefix.pch */,
+				EA61B6746450DA06EE73DF32DF58CFDB /* ISO8601DateFormatter-umbrella.h */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/ISO8601DateFormatter";
+			sourceTree = "<group>";
+		};
+		51F7689912D755118CBF2D2BC7CED611 /* SoapKit */ = {
+			isa = PBXGroup;
+			children = (
+				EE5597270FA48A64B37F8D5E30BAB1EF /* Core */,
+				4D35A99CDCB484824104B825B6777BD3 /* Support Files */,
+			);
+			path = SoapKit;
+			sourceTree = "<group>";
+		};
+		64301FB828A993B07EACE455B3A86E7B /* ISO8601DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				15886E1D5D4552F53A97F42A6BC4C751 /* ISO8601DateFormatter.h */,
+				6D389460115033E1236016902A85C109 /* ISO8601DateFormatter.m */,
+				516162B9693F5394DA6EEC8FC16943B6 /* Support Files */,
+			);
+			path = ISO8601DateFormatter;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -278,20 +331,24 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A9EDFDC2FB87318FA72F3E916B8BC0C2 /* Development Pods */,
-				88387588BE7568AA8B45812FAA800F25 /* Frameworks */,
-				6687BE55DB5882D8F079FF8EF1F561DA /* Pods */,
-				D7EA168E31271739F3EE9288F70491EA /* Products */,
+				C3D94F4E493193A2D9B283A27D46FE42 /* Frameworks */,
+				85D230FAA8F86FE5EDEF86A62F4AEBF3 /* Pods */,
+				80DF2CF9AF64650769FE9C1D95B2F5F2 /* Products */,
 				83D654DBDB8B84A5530C7BA643BC595B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8082E5FCD7053469BF6412EE9EDEAAAA /* SoapKit */ = {
+		80DF2CF9AF64650769FE9C1D95B2F5F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63EF6DAAFD64A0E80AD6ACE32B53C432 /* Core */,
-				967A32937D204B78041A346319E10B06 /* Support Files */,
+				94234C8F8C41905A8620246C1A6EDA13 /* Faturah.framework */,
+				0E13EC9D7495576D9DD6D1227BF3A175 /* ISO8601DateFormatter.framework */,
+				D5E398CC45A29988A37C65A5B5BD5BEA /* MBProgressHUD.framework */,
+				AAD61DBB62A5886A60AE6200AE4FFFA9 /* Pods_Faturah_Example.framework */,
+				EEABF04BDD5F9A66BAA30395DD08E707 /* Pods_Faturah_Tests.framework */,
+				C4C01FF9E9202B7C25ADB2F3555D2A3C /* SoapKit.framework */,
 			);
-			path = SoapKit;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		82D0EDA157E1A56D45EBF373591DC090 /* Pods-Faturah_Tests */ = {
@@ -312,6 +369,16 @@
 			path = "Target Support Files/Pods-Faturah_Tests";
 			sourceTree = "<group>";
 		};
+		82D2F03D76C0FC34DA12BE5DF8099578 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4BFEC0268C08BCCC9DF7FE623FB6B29F /* MBProgressHUD.h */,
+				9706465F3698DF594454E39FD7D62637 /* MBProgressHUD.m */,
+				BB4D84C53FF6C3B14BEADD2932AB7D60 /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		83D654DBDB8B84A5530C7BA643BC595B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,46 +388,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		86929C9C798880BE2EF6C3C7AE4AE5B0 /* ISO8601DateFormatter */ = {
+		85D230FAA8F86FE5EDEF86A62F4AEBF3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3A51C183B11D4212C266911A6ED83883 /* ISO8601DateFormatter.h */,
-				58CFE1569740E071013EB561C2E5B0C3 /* ISO8601DateFormatter.m */,
-				C1C728F834415C2F47CF429C1876E2AC /* Support Files */,
+				64301FB828A993B07EACE455B3A86E7B /* ISO8601DateFormatter */,
+				82D2F03D76C0FC34DA12BE5DF8099578 /* MBProgressHUD */,
+				51F7689912D755118CBF2D2BC7CED611 /* SoapKit */,
 			);
-			path = ISO8601DateFormatter;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		88387588BE7568AA8B45812FAA800F25 /* Frameworks */ = {
+		A05DF62A023D7DCB32CBDAA5A9AF8765 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1BEBB0CB57CC768E8E1FEE60F72F93A4 /* ISO8601DateFormatter.framework */,
-				1D51E0CBB15BB594BE2E2411BA687773 /* SoapKit.framework */,
-				AD25EF33DB2E82B5A9B48121E1130D22 /* iOS */,
+				3FC601D70C93F4B60A8F13322FDCABA7 /* CoreGraphics.framework */,
+				ADC97DCA7B4BE136D878B213F4C238FF /* Foundation.framework */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8D08CF2C04ACB8F2870E7A3CC6F7B8BB /* Faturah */ = {
-			isa = PBXGroup;
-			children = (
-				D316CB2504696D911BC5B6A0774AD241 /* Classes */,
-			);
-			path = Faturah;
-			sourceTree = "<group>";
-		};
-		967A32937D204B78041A346319E10B06 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C2FED4D7317C8AF912D0129FBBC64D88 /* Info.plist */,
-				B345559F32B20D9748A05A105EB852AB /* SoapKit.modulemap */,
-				FEEC3A519EE08072222CC1E4B5B323A2 /* SoapKit.xcconfig */,
-				D4DA18BDC3BE5A24CA0FCA9D18760732 /* SoapKit-dummy.m */,
-				0A981F2F24A6BCE02ADC9A0CBBB21585 /* SoapKit-prefix.pch */,
-				C41D1E11D204BD5DC182BF43D2ACC03C /* SoapKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SoapKit";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		A9EDFDC2FB87318FA72F3E916B8BC0C2 /* Development Pods */ = {
@@ -371,42 +415,36 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AD25EF33DB2E82B5A9B48121E1130D22 /* iOS */ = {
+		B93EEDABDE4FBC1750E845D0EFA047B6 /* Faturah */ = {
 			isa = PBXGroup;
 			children = (
-				5429267B2F6308C75727FC1F53118B20 /* Foundation.framework */,
+				EA8A6C331C89FA1A510CB8861078ACCC /* Classes */,
 			);
-			name = iOS;
+			path = Faturah;
 			sourceTree = "<group>";
 		};
-		C1C728F834415C2F47CF429C1876E2AC /* Support Files */ = {
+		BB4D84C53FF6C3B14BEADD2932AB7D60 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45530E24ECF7D93FE43B0B6630D11EFD /* Info.plist */,
-				473E358E4BF1E4B35A8FCCC01FED9C0E /* ISO8601DateFormatter.modulemap */,
-				1F17B1EEB94C05E505329645EC0474E0 /* ISO8601DateFormatter.xcconfig */,
-				748DF95C270152FF8D68E5D8361F6E5F /* ISO8601DateFormatter-dummy.m */,
-				6B081B3C05B177BB8354BDFDF6671ADE /* ISO8601DateFormatter-prefix.pch */,
-				EAEAB2FAED614BD3213462D02DB2AF98 /* ISO8601DateFormatter-umbrella.h */,
+				07341DAD0BD5AC59FCA1DEF9E289DCD5 /* Info.plist */,
+				580E29F5EB45FDA8FFB17A701A9506A8 /* MBProgressHUD.modulemap */,
+				B95E1974ED1526D99A5616E393407D08 /* MBProgressHUD.xcconfig */,
+				7D6B8DE7578D5B20977E352BEE3C5CAC /* MBProgressHUD-dummy.m */,
+				2A7D4CDAA81A802ED453C3AC91C197BF /* MBProgressHUD-prefix.pch */,
+				52C0AF2A5E70892A685AF4AF879BF084 /* MBProgressHUD-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ISO8601DateFormatter";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		D316CB2504696D911BC5B6A0774AD241 /* Classes */ = {
+		C3D94F4E493193A2D9B283A27D46FE42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2E5CA5F505D98135799EA66119B74672 /* Faturah.h */,
-				A5FC8A0FEC4434A6E4BA3E90D15F5DDB /* FaturahOrder.h */,
-				ACE17916E4904BD33D4D91898E26D6FD /* FaturahOrder.m */,
-				2EF5C976F0B255749C58997551D4FB0C /* FaturahTransaction.h */,
-				9FD488614A78B85BDCBB6C43C8F8B1D7 /* FaturahTransaction.m */,
-				A916768679F7D40FA6C144FB708A0AB8 /* FaturahTransactionManager.h */,
-				7F8B1ACD5CE97729AA57CE8C4CF92796 /* FaturahTransactionManager.m */,
-				043278C61D115AEB001D69EA /* FaturahOrderItem.h */,
-				043278C71D115AEB001D69EA /* FaturahOrderItem.m */,
+				BA0DCA28D4A264F901939768E37D7029 /* ISO8601DateFormatter.framework */,
+				C66784FB66C61660447ACB885B9915EE /* SoapKit.framework */,
+				A05DF62A023D7DCB32CBDAA5A9AF8765 /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D51796B78E08F2DA93DDCC66386F442F /* Pods-Faturah_Example */ = {
@@ -427,22 +465,10 @@
 			path = "Target Support Files/Pods-Faturah_Example";
 			sourceTree = "<group>";
 		};
-		D7EA168E31271739F3EE9288F70491EA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0F9106DE2A3F02D924EF4E49EFB50DDF /* Faturah.framework */,
-				71D66AEA6D485FA6BA7821AFB627B0F7 /* ISO8601DateFormatter.framework */,
-				F24B1A5A6EE12DD1591768BCAE2DDEAB /* Pods_Faturah_Example.framework */,
-				E7126C6738D204C40A4AB65879332191 /* Pods_Faturah_Tests.framework */,
-				7263D7B04C1CFD275E101338E2AFC396 /* SoapKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		E0321DA9AD981859758D04BFDD5473F5 /* Faturah */ = {
 			isa = PBXGroup;
 			children = (
-				8D08CF2C04ACB8F2870E7A3CC6F7B8BB /* Faturah */,
+				B93EEDABDE4FBC1750E845D0EFA047B6 /* Faturah */,
 				E93E941780DA28D35273657D13A8A873 /* Support Files */,
 			);
 			name = Faturah;
@@ -463,23 +489,42 @@
 			path = "Example/Pods/Target Support Files/Faturah";
 			sourceTree = "<group>";
 		};
+		EA8A6C331C89FA1A510CB8861078ACCC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				53F182626066710E57046595A0E0F145 /* Faturah.h */,
+				48B369915B609326CA3172FD8681ACE7 /* FaturahOrder.h */,
+				4E59E47C615E90F6F6DFD984C153E3EF /* FaturahOrder.m */,
+				24000DA1CFBABFD16CC92F8F555ED17C /* FaturahOrderItem.h */,
+				C47719875285C9CF9285D5271DA196EB /* FaturahOrderItem.m */,
+				9C32B1DD1FB161F6EB3F1FDA18634B13 /* FaturahTransaction.h */,
+				A134F7AAC329E52CD2B6128A1432A976 /* FaturahTransaction.m */,
+				3525812E5DE5E2DA0B29D003ADE78DAE /* FaturahTransactionManager.h */,
+				B5709D948147791CF3564D6A2A2B88B3 /* FaturahTransactionManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EE5597270FA48A64B37F8D5E30BAB1EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60ADF58089670B17106FE1DE7572E3BD /* GDataXMLNode.h */,
+				A04A4616D7969002B25D29FC898D7591 /* GDataXMLNode.m */,
+				A3071EE34484558B21C77931ABF0858A /* SKData.h */,
+				18C17281489CB36026652AEFB11CF19D /* SKData.m */,
+				7E9615519600D66D1BF86BD945B0722B /* SKData+Private.h */,
+				9F963E528AC6DBE3C5EEFFFD1962414D /* SKRequest.h */,
+				CA3B80CC6FD7EE986687B59B04819930 /* SKRequest.m */,
+				08F0D0A3974DE34F903C0BDCB265C50C /* SKService.h */,
+				A91F5477FB3FBBE10687FFF31BBB44DD /* SKService.m */,
+				FD6B6806BBBAA3B57E47C0D45DAAABC4 /* SoapKit.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		02CA77DF83DF0BF3779641CB7E0F9EB0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E39BA819473F04BCA68B99C750680C36 /* GDataXMLNode.h in Headers */,
-				549A1517E5FF044DD3DE88BDDA467767 /* SKData+Private.h in Headers */,
-				C0A8758B1273D566B8375E82BE57658C /* SKData.h in Headers */,
-				FCCA20397D2CDE324E397A63CC09BD08 /* SKRequest.h in Headers */,
-				F03AC2B9744C0D78D16F0E3247D7E487 /* SKService.h in Headers */,
-				BEA2F8BD6A707F35F960B1D13F8291A8 /* SoapKit-umbrella.h in Headers */,
-				6CCC1758D1A5A1EEDD55F34A28C83B30 /* SoapKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0984CA5B626109120337561CD25F76DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,39 +533,79 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21A2614034DFE207278FC8D62FD8BAC2 /* Headers */ = {
+		23FD49F42AD67894DCDC498E7E3B7854 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5614686EEB81951C3B27588B9DE6D39F /* Pods-Faturah_Example-umbrella.h in Headers */,
+				7E3AE31CA74C85E3DC8776D3181CC273 /* Faturah-umbrella.h in Headers */,
+				02539D1FEE16AEDFC8129BE463AC644F /* Faturah.h in Headers */,
+				0C0245E3693EC3C453DE3F445D023B0C /* FaturahOrder.h in Headers */,
+				55BFAEFA18DF792A1498A6D86077E2ED /* FaturahOrderItem.h in Headers */,
+				D2A16FAD1ABB8CA2A50E9076C802A66B /* FaturahTransaction.h in Headers */,
+				CCC6D8B2D846547FF947C29B99DEAF04 /* FaturahTransactionManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		526837DAE1A73772611CFE57EAE292D4 /* Headers */ = {
+		2A13C256E976E300A9E7571D2EE1A01B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D37FE5CBCC01C66800A6B982BBFC803 /* ISO8601DateFormatter-umbrella.h in Headers */,
-				5D9854670AD9A9CFD16E58F7757CBC5D /* ISO8601DateFormatter.h in Headers */,
+				CB57EC8A5D4659DB023250D52079E738 /* ISO8601DateFormatter-umbrella.h in Headers */,
+				B14198A29A295D88DD3053FA093B4E48 /* ISO8601DateFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBB1684B5CE38F092B2CA6BC1BC2E915 /* Headers */ = {
+		3BEC52AE94744AA599BB8675AA2CEB80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02EBD37F64FC74D618821FA6FB263BD /* Faturah-umbrella.h in Headers */,
-				A8426B8E93AC90FDAE7FBF8B8322EDCD /* Faturah.h in Headers */,
-				C22091A04412115FEF3BACA9B26B1B04 /* FaturahOrder.h in Headers */,
-				DB2F35D9F9DF111CECB496C5BD189839 /* FaturahTransaction.h in Headers */,
-				043278C81D115AEB001D69EA /* FaturahOrderItem.h in Headers */,
-				06E6592DFF2AB4FEDE334934F6E931CB /* FaturahTransactionManager.h in Headers */,
+				865CD9CE7E7BE676712E6B08282C247A /* Pods-Faturah_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503F6C21CE1E3960DA1D62285C1BD022 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9F58C3E345A6392AAF394982078F05 /* GDataXMLNode.h in Headers */,
+				13BD1E792A9C55F04D6943E7B19AB3CA /* SKData+Private.h in Headers */,
+				E4FF43B6432443F7F6B2321051BA2AFE /* SKData.h in Headers */,
+				60E730A6D5A6CBEDFA27B82B35A53A91 /* SKRequest.h in Headers */,
+				E3EABDAAA0116F42B893EFE35EE2F7D5 /* SKService.h in Headers */,
+				8CF7FB527B326EC0853EDB98E98C4448 /* SoapKit-umbrella.h in Headers */,
+				935C82A78C4F8DE45A35DFB8B9A318B8 /* SoapKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6FCF15CC1F4F05C46539443FDA2AAB /* MBProgressHUD-umbrella.h in Headers */,
+				1E7623B9420C3E71FAE3287C0CECA040 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		016E282B265680F4BBE41430295F64C6 /* ISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73210D918EACFD8E4B17C21C855778F4 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */;
+			buildPhases = (
+				F6979FCDB89B1BAAF5679287A08B12E2 /* Sources */,
+				86AA99145404206DCFF829252D4B9FF4 /* Frameworks */,
+				2A13C256E976E300A9E7571D2EE1A01B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISO8601DateFormatter;
+			productName = ISO8601DateFormatter;
+			productReference = 0E13EC9D7495576D9DD6D1227BF3A175 /* ISO8601DateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		06C60FA192460E412D37D84274E7FD2D /* Pods-Faturah_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECBB52051DEE81C503C68432078A1F11 /* Build configuration list for PBXNativeTarget "Pods-Faturah_Tests" */;
@@ -535,83 +620,84 @@
 			);
 			name = "Pods-Faturah_Tests";
 			productName = "Pods-Faturah_Tests";
-			productReference = E7126C6738D204C40A4AB65879332191 /* Pods_Faturah_Tests.framework */;
+			productReference = EEABF04BDD5F9A66BAA30395DD08E707 /* Pods_Faturah_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0CF3D7920ABCA23E5816319AFBD0B5B2 /* Pods-Faturah_Example */ = {
+		501784464D53FC6A08F6A1352701A9B8 /* Faturah */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA6B440273F273E957098AB58B776497 /* Build configuration list for PBXNativeTarget "Pods-Faturah_Example" */;
+			buildConfigurationList = E22625C55D48855AE4A84430ECBB6009 /* Build configuration list for PBXNativeTarget "Faturah" */;
 			buildPhases = (
-				F141FF71EB1490E1972853B12DC0EB9F /* Sources */,
-				F91F49D5C8F68690C4143F61CF6E1477 /* Frameworks */,
-				21A2614034DFE207278FC8D62FD8BAC2 /* Headers */,
+				8503877C9D5194F61B2D7029710410D9 /* Sources */,
+				9ECDCE414B1D1605BDC8FA8AA9E86E20 /* Frameworks */,
+				23FD49F42AD67894DCDC498E7E3B7854 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F1D4ACB3F62B696AA5E8E66E4CCF663 /* PBXTargetDependency */,
-				724E007AE865FA3E286579A910CE382F /* PBXTargetDependency */,
-				568D72ADB1B7F6AB9E55BCBCE4A8CE4C /* PBXTargetDependency */,
-			);
-			name = "Pods-Faturah_Example";
-			productName = "Pods-Faturah_Example";
-			productReference = F24B1A5A6EE12DD1591768BCAE2DDEAB /* Pods_Faturah_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1555CF099827FD737E8F3EE24323E953 /* ISO8601DateFormatter */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1910B4EC01D947E4AAE111A896CDA712 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */;
-			buildPhases = (
-				20B060B3ABFF48B478658F59C060E216 /* Sources */,
-				6A1981507514C86A085A36FB51316CEC /* Frameworks */,
-				526837DAE1A73772611CFE57EAE292D4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ISO8601DateFormatter;
-			productName = ISO8601DateFormatter;
-			productReference = 71D66AEA6D485FA6BA7821AFB627B0F7 /* ISO8601DateFormatter.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4682CCF635B2FF1359941297C7619EBA /* SoapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E130CCBF8D4D39814BAA33409EDB8D85 /* Build configuration list for PBXNativeTarget "SoapKit" */;
-			buildPhases = (
-				6C5DA39494A448E8BB4A7AA5AE163CFA /* Sources */,
-				8F745E109C321702366F409014F54B07 /* Frameworks */,
-				02CA77DF83DF0BF3779641CB7E0F9EB0 /* Headers */,
-				9B05B8A0D8144DBFE519478960291F1A /* Copy . Public Headers */,
-				A1DDF1E1F67A3BACECCDC822F784F91D /* Copy Soap Public Headers */,
-				B2FDF271682FE931C14762743CC80D7B /* Copy Util Public Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				901CE168600579B156600D1B483E3F38 /* PBXTargetDependency */,
-			);
-			name = SoapKit;
-			productName = SoapKit;
-			productReference = 7263D7B04C1CFD275E101338E2AFC396 /* SoapKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7BDF4F72605FF1B476B4126D7311A842 /* Faturah */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F34DC10E536D2C07F533B57BFB4DE71 /* Build configuration list for PBXNativeTarget "Faturah" */;
-			buildPhases = (
-				43100082876884EC35CDA151F914BF78 /* Sources */,
-				C03AFF28767E5CC69539D647486EB025 /* Frameworks */,
-				CBB1684B5CE38F092B2CA6BC1BC2E915 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9D8D239563D0B6835A70A6D6932C33F9 /* PBXTargetDependency */,
+				144146EE889F1A7C122EFD5BD795DB1C /* PBXTargetDependency */,
 			);
 			name = Faturah;
 			productName = Faturah;
-			productReference = 0F9106DE2A3F02D924EF4E49EFB50DDF /* Faturah.framework */;
+			productReference = 94234C8F8C41905A8620246C1A6EDA13 /* Faturah.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D3975F3CF8BD14E82A5479A54473F46 /* Pods-Faturah_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE8150F71CDD4D83FE3763CFDC9D70C /* Build configuration list for PBXNativeTarget "Pods-Faturah_Example" */;
+			buildPhases = (
+				8EBDD24F7B811165EBF4D20006543155 /* Sources */,
+				A0FC48F0064AD2DEA55950301397CFA2 /* Frameworks */,
+				3BEC52AE94744AA599BB8675AA2CEB80 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4E9DF210E4D2F783F03C1759C1675C9 /* PBXTargetDependency */,
+				769BE5538268E2C4D2291AC3D6366ED9 /* PBXTargetDependency */,
+				AEECBE3C1996D1EFB4159C5B92EE4414 /* PBXTargetDependency */,
+				EE5A5462A23D791B3D473857A39F5B76 /* PBXTargetDependency */,
+			);
+			name = "Pods-Faturah_Example";
+			productName = "Pods-Faturah_Example";
+			productReference = AAD61DBB62A5886A60AE6200AE4FFFA9 /* Pods_Faturah_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2491BCEEC5142965AED30AE211A39FD /* SoapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F18413BAB64913A6075AA83CBAFD1F4 /* Build configuration list for PBXNativeTarget "SoapKit" */;
+			buildPhases = (
+				DA95534F436B6BA75D3EF02515297374 /* Sources */,
+				A548935396216C74203BAD572B682982 /* Frameworks */,
+				503F6C21CE1E3960DA1D62285C1BD022 /* Headers */,
+				1BD583EF9943D62D3813CFADB6DA8371 /* Copy . Public Headers */,
+				B8A0A10A147C41CEACD7E52588AA37FE /* Copy Soap Public Headers */,
+				9ABFBA35F0EC65D0C0A8409C36F5BFD7 /* Copy Util Public Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA8C4380FFFDAF3739A0ED40C5AC687 /* PBXTargetDependency */,
+			);
+			name = SoapKit;
+			productName = SoapKit;
+			productReference = C4C01FF9E9202B7C25ADB2F3555D2A3C /* SoapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */,
+				6488DB2C9BB99C53077D390CE673DD56 /* Frameworks */,
+				9ECCB5570B7FBF8D348655FFA0FE9C90 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = D5E398CC45A29988A37C65A5B5BD5BEA /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -631,50 +717,59 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D7EA168E31271739F3EE9288F70491EA /* Products */;
+			productRefGroup = 80DF2CF9AF64650769FE9C1D95B2F5F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7BDF4F72605FF1B476B4126D7311A842 /* Faturah */,
-				1555CF099827FD737E8F3EE24323E953 /* ISO8601DateFormatter */,
-				0CF3D7920ABCA23E5816319AFBD0B5B2 /* Pods-Faturah_Example */,
+				501784464D53FC6A08F6A1352701A9B8 /* Faturah */,
+				016E282B265680F4BBE41430295F64C6 /* ISO8601DateFormatter */,
+				E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */,
+				7D3975F3CF8BD14E82A5479A54473F46 /* Pods-Faturah_Example */,
 				06C60FA192460E412D37D84274E7FD2D /* Pods-Faturah_Tests */,
-				4682CCF635B2FF1359941297C7619EBA /* SoapKit */,
+				C2491BCEEC5142965AED30AE211A39FD /* SoapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20B060B3ABFF48B478658F59C060E216 /* Sources */ = {
+		2DAFB06DF9D4B76E7F94DA2B8A63DD59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8ABA754488B02869D01472B873F7547 /* ISO8601DateFormatter-dummy.m in Sources */,
-				29AFE880F0099A0F57CACBFF8BBC69EA /* ISO8601DateFormatter.m in Sources */,
+				BB010EE04BA829E196554A00A951AA7C /* MBProgressHUD-dummy.m in Sources */,
+				9E17CC11959A1FE5566CE528047ACDC0 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43100082876884EC35CDA151F914BF78 /* Sources */ = {
+		8503877C9D5194F61B2D7029710410D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC0C3848D37D77CDDF11766DCB690B1 /* Faturah-dummy.m in Sources */,
-				030D2AD8B24B0EE953B8C27CF8C68024 /* FaturahOrder.m in Sources */,
-				1FF59B4C9178A2A9CA007A46083EE32F /* FaturahTransaction.m in Sources */,
-				FC852F24BF9161470A6C8E8E0C67AF12 /* FaturahTransactionManager.m in Sources */,
-				043278C91D115AEC001D69EA /* FaturahOrderItem.m in Sources */,
+				6E1F77E7BB3B39A85FB8B0E2DC9CC749 /* Faturah-dummy.m in Sources */,
+				5CF572659DDE67B50F4D5A431623233D /* FaturahOrder.m in Sources */,
+				3F047EC2D75850B541F2E5454C08EE80 /* FaturahOrderItem.m in Sources */,
+				20DD8DFDA6DE8205D072DCF2D74E9E13 /* FaturahTransaction.m in Sources */,
+				781786866E6F58B25679CD44F02808CE /* FaturahTransactionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C5DA39494A448E8BB4A7AA5AE163CFA /* Sources */ = {
+		8EBDD24F7B811165EBF4D20006543155 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95DDD8A934338D8734998D49C26C2037 /* GDataXMLNode.m in Sources */,
-				D206A31C81D262017F5FC180E4877B7E /* SKData.m in Sources */,
-				AC5C20EAEBF0A821C454C6721E813CFC /* SKRequest.m in Sources */,
-				45405356A19E96A18CF2DEA1D78BB609 /* SKService.m in Sources */,
-				5887B5A0EF62ABA6A6EC933BB7A9986D /* SoapKit-dummy.m in Sources */,
+				57BFEE84E78CFD476054F54C3254A9BE /* Pods-Faturah_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA95534F436B6BA75D3EF02515297374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E845D129BE8BA10AD1E48B1E0DB6AC /* GDataXMLNode.m in Sources */,
+				4B50BAB85AEDF93892D35E263A8EACD1 /* SKData.m in Sources */,
+				6AAA849D28DDBB16884F1A6B91E135B5 /* SKRequest.m in Sources */,
+				384AC39B6E4CCD033DF478DCCDB21420 /* SKService.m in Sources */,
+				E0656BCC606788DDF0509813EFF68346 /* SoapKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -686,46 +781,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F141FF71EB1490E1972853B12DC0EB9F /* Sources */ = {
+		F6979FCDB89B1BAAF5679287A08B12E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5675FFA9FB6FC18E1F4AE4A1BBCD0651 /* Pods-Faturah_Example-dummy.m in Sources */,
+				97442A2A4BBEE53F19FD5A600854BB7A /* ISO8601DateFormatter-dummy.m in Sources */,
+				ADF65CBDB157B31559B3EB66D92A7841 /* ISO8601DateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		568D72ADB1B7F6AB9E55BCBCE4A8CE4C /* PBXTargetDependency */ = {
+		144146EE889F1A7C122EFD5BD795DB1C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SoapKit;
-			target = 4682CCF635B2FF1359941297C7619EBA /* SoapKit */;
-			targetProxy = 7F18EBB6AC390AB9FDB2A4F8BD786FC3 /* PBXContainerItemProxy */;
+			target = C2491BCEEC5142965AED30AE211A39FD /* SoapKit */;
+			targetProxy = 0C549F900434567A2872C5EF3284E31D /* PBXContainerItemProxy */;
 		};
-		724E007AE865FA3E286579A910CE382F /* PBXTargetDependency */ = {
+		769BE5538268E2C4D2291AC3D6366ED9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ISO8601DateFormatter;
-			target = 1555CF099827FD737E8F3EE24323E953 /* ISO8601DateFormatter */;
-			targetProxy = 389C48CC0BE68BBC0D5859A973B5E0C7 /* PBXContainerItemProxy */;
+			target = 016E282B265680F4BBE41430295F64C6 /* ISO8601DateFormatter */;
+			targetProxy = E3B46482D754D86961FA0520FA9B81B1 /* PBXContainerItemProxy */;
 		};
-		8F1D4ACB3F62B696AA5E8E66E4CCF663 /* PBXTargetDependency */ = {
+		9CA8C4380FFFDAF3739A0ED40C5AC687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISO8601DateFormatter;
+			target = 016E282B265680F4BBE41430295F64C6 /* ISO8601DateFormatter */;
+			targetProxy = 39D5E6F7705538FE7A2C535FACB7582E /* PBXContainerItemProxy */;
+		};
+		AEECBE3C1996D1EFB4159C5B92EE4414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = E61CE3B6DFA1FE6B3E296965C76C0E10 /* MBProgressHUD */;
+			targetProxy = F2B0C3EFAAC891E2A7E1D651DE579581 /* PBXContainerItemProxy */;
+		};
+		C4E9DF210E4D2F783F03C1759C1675C9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Faturah;
-			target = 7BDF4F72605FF1B476B4126D7311A842 /* Faturah */;
-			targetProxy = 00A81228ADA4AFA082FE8D2B3D4410D7 /* PBXContainerItemProxy */;
+			target = 501784464D53FC6A08F6A1352701A9B8 /* Faturah */;
+			targetProxy = 4039DB8DCBA1243A73FA83AF866F44CF /* PBXContainerItemProxy */;
 		};
-		901CE168600579B156600D1B483E3F38 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ISO8601DateFormatter;
-			target = 1555CF099827FD737E8F3EE24323E953 /* ISO8601DateFormatter */;
-			targetProxy = B3354F868E9F37E1D13A70F4D4825857 /* PBXContainerItemProxy */;
-		};
-		9D8D239563D0B6835A70A6D6932C33F9 /* PBXTargetDependency */ = {
+		EE5A5462A23D791B3D473857A39F5B76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SoapKit;
-			target = 4682CCF635B2FF1359941297C7619EBA /* SoapKit */;
-			targetProxy = 4E6148A4BF360C27DB280F35483BC0C1 /* PBXContainerItemProxy */;
+			target = C2491BCEEC5142965AED30AE211A39FD /* SoapKit */;
+			targetProxy = A68280C89A16F0EFDDF3DCCE4807A6E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -772,9 +874,9 @@
 			};
 			name = Debug;
 		};
-		05F3E23288EF6CEC9D3E432CC80CE59B /* Debug */ = {
+		2216DD48A2ED683B2B1237A381081AC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEEC3A519EE08072222CC1E4B5B323A2 /* SoapKit.xcconfig */;
+			baseConfigurationReference = B95E1974ED1526D99A5616E393407D08 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -785,14 +887,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SoapKit/SoapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SoapKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SoapKit/SoapKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SoapKit;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -800,35 +902,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		1B8007B8F70585E2A553DF1509D76C9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4685F194611580E5560A7CDE3CCF777 /* Faturah.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Faturah/Faturah-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Faturah/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Faturah/Faturah.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Faturah;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		233EF2B7E978DA2E1E8D87FE8F5F4216 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -863,6 +936,39 @@
 			};
 			name = Debug;
 		};
+		33596981168BADA856E1C8F9094E5F36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438A02FA25C6186BE1D5DB2C96D2CD2B /* Pods-Faturah_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Faturah_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Faturah_Example/Pods-Faturah_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Faturah_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		367754C357D813C03B14ECD97ECD84E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D475408A48D9EC0EDA1EE82EC890A12 /* Pods-Faturah_Tests.release.xcconfig */;
@@ -896,9 +1002,9 @@
 			};
 			name = Release;
 		};
-		4887B6088974CEB043D9145E01205F60 /* Debug */ = {
+		6856AE524EE3A54F60EFCE47DDB2697C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44E4B8B92AAD272D18FB2248D4068605 /* Pods-Faturah_Example.debug.xcconfig */;
+			baseConfigurationReference = 80B9A2D0331A3ACF61D522BC3458CB30 /* SoapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -909,18 +1015,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Faturah_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SoapKit/SoapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SoapKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Faturah_Example/Pods-Faturah_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SoapKit/SoapKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Faturah_Example;
+				PRODUCT_NAME = SoapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -929,9 +1031,96 @@
 			};
 			name = Debug;
 		};
-		4A2CA35988CD464B382039E41D3BF1B2 /* Release */ = {
+		7FAC677E9F52354617664E4B64EE6457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F17B1EEB94C05E505329645EC0474E0 /* ISO8601DateFormatter.xcconfig */;
+			baseConfigurationReference = C4685F194611580E5560A7CDE3CCF777 /* Faturah.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Faturah/Faturah-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Faturah/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Faturah/Faturah.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Faturah;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		80F7CFAA430DCD27955C5E34C638856B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CB54A99F4871952C08317CA188222B /* ISO8601DateFormatter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISO8601DateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DD813B76D75B00D654FF48EBE312A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95E1974ED1526D99A5616E393407D08 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C23E478B7C50E932634D7AA7062C9F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97CB54A99F4871952C08317CA188222B /* ISO8601DateFormatter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -950,39 +1139,6 @@
 				MODULEMAP_FILE = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ISO8601DateFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		601BDA1F0F7480D60288F418406B9ED9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 438A02FA25C6186BE1D5DB2C96D2CD2B /* Pods-Faturah_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Faturah_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Faturah_Example/Pods-Faturah_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Faturah_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1029,13 +1185,13 @@
 			};
 			name = Release;
 		};
-		DBE492FAF82E09BFF344451883B9752D /* Debug */ = {
+		C88063DC4317B636835817F45A6EEABB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4685F194611580E5560A7CDE3CCF777 /* Faturah.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1048,8 +1204,41 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Faturah/Faturah.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Faturah;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0CD3ADC6C07EEA85AA88624F9401107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E4B8B92AAD272D18FB2248D4068605 /* Pods-Faturah_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Faturah_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Faturah_Example/Pods-Faturah_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Faturah_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1058,9 +1247,9 @@
 			};
 			name = Debug;
 		};
-		E28872C030FAB175F84FF7E0B6C7C0D1 /* Release */ = {
+		FC301605E06C4F5B8694344098F05628 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEEC3A519EE08072222CC1E4B5B323A2 /* SoapKit.xcconfig */;
+			baseConfigurationReference = 80B9A2D0331A3ACF61D522BC3458CB30 /* SoapKit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1087,43 +1276,23 @@
 			};
 			name = Release;
 		};
-		F2B79BCEFC8196A38CEC9DD0EAFB3F2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F17B1EEB94C05E505329645EC0474E0 /* ISO8601DateFormatter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ISO8601DateFormatter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ISO8601DateFormatter/ISO8601DateFormatter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ISO8601DateFormatter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1910B4EC01D947E4AAE111A896CDA712 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */ = {
+		0AE8150F71CDD4D83FE3763CFDC9D70C /* Build configuration list for PBXNativeTarget "Pods-Faturah_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F2B79BCEFC8196A38CEC9DD0EAFB3F2A /* Debug */,
-				4A2CA35988CD464B382039E41D3BF1B2 /* Release */,
+				D0CD3ADC6C07EEA85AA88624F9401107 /* Debug */,
+				33596981168BADA856E1C8F9094E5F36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ECAD3CE95CA19E5AFE91894C857527C /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2216DD48A2ED683B2B1237A381081AC0 /* Debug */,
+				9DD813B76D75B00D654FF48EBE312A81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1137,29 +1306,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F34DC10E536D2C07F533B57BFB4DE71 /* Build configuration list for PBXNativeTarget "Faturah" */ = {
+		73210D918EACFD8E4B17C21C855778F4 /* Build configuration list for PBXNativeTarget "ISO8601DateFormatter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBE492FAF82E09BFF344451883B9752D /* Debug */,
-				1B8007B8F70585E2A553DF1509D76C9E /* Release */,
+				80F7CFAA430DCD27955C5E34C638856B /* Debug */,
+				C23E478B7C50E932634D7AA7062C9F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA6B440273F273E957098AB58B776497 /* Build configuration list for PBXNativeTarget "Pods-Faturah_Example" */ = {
+		7F18413BAB64913A6075AA83CBAFD1F4 /* Build configuration list for PBXNativeTarget "SoapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4887B6088974CEB043D9145E01205F60 /* Debug */,
-				601BDA1F0F7480D60288F418406B9ED9 /* Release */,
+				6856AE524EE3A54F60EFCE47DDB2697C /* Debug */,
+				FC301605E06C4F5B8694344098F05628 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E130CCBF8D4D39814BAA33409EDB8D85 /* Build configuration list for PBXNativeTarget "SoapKit" */ = {
+		E22625C55D48855AE4A84430ECBB6009 /* Build configuration list for PBXNativeTarget "Faturah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05F3E23288EF6CEC9D3E432CC80CE59B /* Debug */,
-				E28872C030FAB175F84FF7E0B6C7C0D1 /* Release */,
+				7FAC677E9F52354617664E4B64EE6457 /* Debug */,
+				C88063DC4317B636835817F45A6EEABB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 {
   "name": "Faturah",
-  "version": "0.1.0",
-  "summary": "A short description of Faturah.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/Faturah",
+  "version": "1.0.0",
+  "summary": "Official Faturah Paymenet Gateway iOS SDK",
+  "description": "Use this SDK to make payments through Faturah Payment Gateway on iOS devices.",
+  "homepage": "https://github.com/mohamedadly/Faturah",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "mohamedadly": "eng.mohamed.adly@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/Faturah.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/mohamedadly/Faturah.git",
+    "tag": ""
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Faturah/Classes/**/*",
+  "source_files": "Faturah/Classes/**/*.{h,m}",
   "dependencies": {
     "SoapKit": [
       "~> 0.0.1"

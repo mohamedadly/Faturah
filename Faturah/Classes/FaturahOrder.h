@@ -6,6 +6,9 @@
 //
 //
 
+#ifndef FaturahOrder_h
+#define FaturahOrder_h
+
 #import <Foundation/Foundation.h>
 #import "FaturahOrderItem.h"
 
@@ -29,6 +32,8 @@
 @property (nonatomic, strong) NSMutableArray* orderItemsPrices;
 
 //add item
-- (void) addItem:(FaturahOrderItem *) aItem;
+- (void) addItem:(FaturahOrderItem *) anItem;
 
 @end
+
+#endif

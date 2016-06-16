@@ -6,6 +6,9 @@
 //
 //
 
+#ifndef FaturahOrderItem_h
+#define FaturahOrderItem_h
+
 #import <Foundation/Foundation.h>
 
 @interface FaturahOrderItem : NSObject
@@ -25,3 +28,5 @@
                   andPrice:(NSNumber*) itemPrice;
 
 @end
+
+#endif

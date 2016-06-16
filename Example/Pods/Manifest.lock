@@ -1,7 +1,8 @@
 PODS:
-  - Faturah (0.1.0):
+  - Faturah (1.0.0):
     - SoapKit (~> 0.0.1)
   - ISO8601DateFormatter (0.8)
+  - MBProgressHUD (0.9.2)
   - SoapKit (0.0.1):
     - SoapKit/Core (= 0.0.1)
   - SoapKit/Core (0.0.1):
@@ -9,16 +10,18 @@ PODS:
 
 DEPENDENCIES:
   - Faturah (from `../`)
+  - MBProgressHUD
 
 EXTERNAL SOURCES:
   Faturah:
     :path: ../
 
 SPEC CHECKSUMS:
-  Faturah: 38c12c1ed2e4702adb694ed1a2c103e1e6259569
+  Faturah: 8c9031bf34184d4cba0539be1a91233351bee3ef
   ISO8601DateFormatter: 4551b6ce4f83185425f583b0b3feb3c7b59b942c
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   SoapKit: d29454e8291beee30f60c6f740d9a8e25172f072
 
-PODFILE CHECKSUM: 46bcd0239ff4a9259c494acf86a06753056302a2
+PODFILE CHECKSUM: 68a8c7ae0c8dfd555b1ffe25820bd0d80e82b826
 
 COCOAPODS: 1.0.1
