@@ -49,6 +49,7 @@
 }
 
 - (NSArray *)parseOutput:(NSData *)response SoapReaquest:(SKRequest *)soapRequest {
+    DLog(@"response: %@", [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding]);
     GDataXMLDocument *doc = [[GDataXMLDocument alloc] initWithData:response options:0 error:nil];
     if(!doc)
         return nil;

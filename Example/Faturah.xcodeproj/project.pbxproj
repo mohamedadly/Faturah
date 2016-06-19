@@ -16,25 +16,9 @@
 		6003F59E195388D20070C39A /* FaturahAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* FaturahAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* FaturahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* FaturahViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9B6E30CDBA0AAE1C989867F0 /* Pods_Faturah_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACC5E5C04CCDF7E4721AB50 /* Pods_Faturah_Example.framework */; };
-		ED6428F71BCA00B6D249274B /* Pods_Faturah_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E2F4C0DB45300BD081FC34 /* Pods_Faturah_Tests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = Faturah;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		043278AB1D101604001D69EA /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
@@ -56,7 +40,6 @@
 		6003F5A5195388D20070C39A /* FaturahViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaturahViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* FaturahViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaturahViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Faturah_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Faturah_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -81,17 +64,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				ED6428F71BCA00B6D249274B /* Pods_Faturah_Tests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -111,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* Faturah_Example.app */,
-				6003F5AE195388D20070C39A /* Faturah_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,27 +190,6 @@
 			productReference = 6003F58A195388D20070C39A /* Faturah_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* Faturah_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Faturah_Tests" */;
-			buildPhases = (
-				2B3073C30F66590602ED0994 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				286992EF4EAF02A70E0B814D /* [CP] Embed Pods Frameworks */,
-				51D145919AAB9C996E35C901 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = Faturah_Tests;
-			productName = FaturahTests;
-			productReference = 6003F5AE195388D20070C39A /* Faturah_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,11 +199,6 @@
 				CLASSPREFIX = Faturah;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = mohamedadly;
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "Faturah" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -269,7 +214,6 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* Faturah_Example */,
-				6003F5AD195388D20070C39A /* Faturah_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,47 +230,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		286992EF4EAF02A70E0B814D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faturah_Tests/Pods-Faturah_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2B3073C30F66590602ED0994 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		30DEE21DE19DE6BFEBFF7138 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,21 +263,6 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		51D145919AAB9C996E35C901 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Faturah_Tests/Pods-Faturah_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6C1300339FB4A8B0C72DB3A9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,23 +291,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* Faturah_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
@@ -543,50 +418,6 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BA65F43A7346B3416F0B82E /* Pods-Faturah_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faturah_Example.app/Faturah_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD85D0BB9C51B6677ADE43F2 /* Pods-Faturah_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Faturah_Example.app/Faturah_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,15 +435,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Faturah_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

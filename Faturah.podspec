@@ -14,19 +14,19 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Use this SDK to make payments through Faturah Payment Gateway on iOS devices.
                         DESC
-s.library				= 'xml2'
-s.xcconfig				= { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-s.requires_arc			= true
+#s.library				= 'xml2'
+#s.xcconfig				= { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+#s.requires_arc			= true
 
   s.homepage         = 'https://github.com/mohamedadly/Faturah'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mohamedadly' => 'eng.mohamed.adly@gmail.com' }
-  s.source           = { :git => 'https://github.com/mohamedadly/Faturah.git', :tag => ""}
+  s.source           = { :git => 'https://github.com/mohamedadly/Faturah.git', :tag => "v1.0"}
     s.platform				= :ios, '9.0'
 
   s.ios.deployment_target = '9.0'
 
 s.source_files = 'Faturah/Classes/**/*.{h,m}'
 
-#s.dependency 'SoapKit', '~> 0.0.1'
+s.dependency 'SoapKit', '~> 0.0.1'
 end

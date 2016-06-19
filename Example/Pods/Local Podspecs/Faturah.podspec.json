@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "summary": "Official Faturah Paymenet Gateway iOS SDK",
   "description": "Use this SDK to make payments through Faturah Payment Gateway on iOS devices.",
-  "libraries": "xml2",
-  "xcconfig": {
-    "HEADER_SEARCH_PATHS": "$(SDKROOT)/usr/include/libxml2"
-  },
-  "requires_arc": true,
   "homepage": "https://github.com/mohamedadly/Faturah",
   "license": {
     "type": "MIT",
@@ -18,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/mohamedadly/Faturah.git",
-    "tag": ""
+    "tag": "v1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "Faturah/Classes/**/*.{h,m}"
+  "source_files": "Faturah/Classes/**/*.{h,m}",
+  "dependencies": {
+    "SoapKit": [
+      "~> 0.0.1"
+    ]
+  }
 }

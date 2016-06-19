@@ -8,9 +8,9 @@
 
 #import "FaturahTransactionManager.h"
 #import "FaturahOrder.h"
-#import "Soap/SKRequest.h"
-#import "Soap/SKService.h"
-#import "Soap/SKData.h"
+#import "SKRequest.h"
+#import "SKService.h"
+#import "SKData.h"
 #import <SafariServices/SafariServices.h>
 
 

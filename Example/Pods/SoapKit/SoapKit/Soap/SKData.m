@@ -8,6 +8,7 @@
 
 #import "SKData.h"
 #import "GDataXMLNode.h"
+#import "ISO8601DateFormatter.h"
 
 @interface SKData ()
 @property (strong, nonatomic) GDataXMLElement *xml;
@@ -166,7 +167,8 @@
 
 - (NSDate *)dateValue
 {
-    return nil;
+    ISO8601DateFormatter *formatter = [[ISO8601DateFormatter alloc] init];
+    return [formatter dateFromString:self.xml.stringValue];
 }
 
 - (void)setDateValue:(NSDate *)value
