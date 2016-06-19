@@ -7,6 +7,7 @@
 //
 
 #import "FaturahAppDelegate.h"
+#import "Faturah.h"
 
 @implementation FaturahAppDelegate
 
@@ -41,6 +42,12 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString *,id> *)options
+{
+    return [[FaturahTransactionManager sharedManager] openURL:url];
 }
 
 @end

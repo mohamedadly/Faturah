@@ -8,6 +8,7 @@
 
 #import "FaturahViewController.h"
 #import <Faturah/Faturah.h>
+#import <MBProgressHUD/MBProgressHUD.h>
 
 
 
@@ -35,8 +36,9 @@
 {
     //Create Transaction
     FaturahTransaction* transaction = [[FaturahTransaction alloc] init];
-    [transaction setMerchantCode:@"xxxxxxxxxxxxxxxxxxxxxxxxxxxx1000"];
+    [transaction setMerchantCode:@"xxxxxxxxxxxxxxxxxxxxxxxxxxxx1009"];
     [transaction setSecureKey:@"c784bdf6-1a06-41ab-8b31-3949752ab1f7"];
+    [transaction setUrlScheme:@"faturah123"];
     
     //Create Order
     FaturahOrder *order = [[FaturahOrder alloc] init];
@@ -64,6 +66,9 @@
     //Set Order
     [transaction setOrder:order];
     
+    //View Hud
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    
     //Prepare Transaction
     [[FaturahTransactionManager sharedManager] prepareTranscation:transaction
                                                      withDelegate:self];
@@ -72,7 +77,51 @@
 #pragma mark - FaturahTransactionManagerDelegate
 - (void) transactionManagerDidFinishTransactionPreparation:(FaturahTransaction*) transaction withError:(NSError*) error
 {
-    NSLog(@"%@", error);
+    //hide hud
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+    if(error)
+    {
+        NSLog(@"Error Occured During Transaction Preparation");
+    }
+    else
+    {
+        //start payment process
+        [[FaturahTransactionManager sharedManager] startPayementForTransaction:transaction
+                                                            fromViewController:self
+                                                                  withDelegate:self];
+    }
+}
+
+-(void) transactionManagerDidFinishPaymentWithStatus:(FaturahPaymentStatus)status andError:(NSError *)error
+{
+    NSString *message = @"";
+    
+    switch (status) {
+        case FaturahPaymentStatusCompleted:
+            message = @"Payment Completed";
+            break;
+        case FaturahPaymentStatusFailed:
+            message = @"Payment Failed";
+            break;
+        case FaturahPaymentStatusPending:
+            message = @"Payment Pending";
+            break;
+        case FaturahPaymentStatusCanceled:
+            message = @"Payment Canceled";
+            break;
+        default:
+            break;
+    }
+    
+    UIAlertController* alert = [UIAlertController alertControllerWithTitle:@""
+                                                                   message:message
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction* defaultAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                          handler:^(UIAlertAction * action) {}];
+    
+    [alert addAction:defaultAction];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 @end

@@ -85,13 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Faturah/Faturah.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/ISO8601DateFormatter/ISO8601DateFormatter.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SoapKit/SoapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Faturah/Faturah.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/ISO8601DateFormatter/ISO8601DateFormatter.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SoapKit/SoapKit.framework"
 fi

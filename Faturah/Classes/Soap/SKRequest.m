@@ -71,7 +71,6 @@
 
 - (NSString *)soapAction
 {
-    NSLog(@"SoapAction: %@",[[self.namespaceURL URLByAppendingPathComponent:self.operation] absoluteString]);
     return [[self.namespaceURL URLByAppendingPathComponent:self.operation] absoluteString];
 }
 
@@ -84,7 +83,6 @@
     [body addChild:self.xml];
     [envelope addChild:body];
     
-    NSLog(@"body: %@",[[NSString alloc] initWithData:[[[GDataXMLDocument alloc] initWithRootElement:envelope] XMLData] encoding:NSUTF8StringEncoding]);
     return [[[GDataXMLDocument alloc] initWithRootElement:envelope] XMLData];
 }
 

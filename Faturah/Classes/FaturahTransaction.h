@@ -12,13 +12,6 @@
 #import <Foundation/Foundation.h>
 #import "FaturahOrder.h"
 
-@protocol FaturahTransactionDelegate <NSObject>
-
-@required
-
-
-@end
-
 @interface FaturahTransaction : NSObject
 
 //transaction properties
@@ -27,8 +20,9 @@
 @property (nonatomic, strong) NSString* token;
 @property (nonatomic, strong) FaturahOrder* order;
 @property (nonatomic, strong) NSString* message;
-@property (nonatomic, strong) NSString* hash;
+@property (nonatomic, strong) NSString* secureHash;
 @property (nonatomic) BOOL isSecureMerchant;
+@property (nonatomic, strong) NSString* urlScheme;
 
 @end
 
