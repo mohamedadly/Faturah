@@ -15,7 +15,7 @@
     if(self = [super init])
     {
         //init total price
-        self.orderTotalPrice = @"0";
+        self.orderTotalPrice = [NSNumber numberWithInt:0];
         
         //order date
         NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];

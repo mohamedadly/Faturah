@@ -1,12 +1,6 @@
-use_frameworks!
+#use_frameworks!
 
 target 'Faturah_Example' do
-  pod 'Faturah', :path => '../'
   pod 'MBProgressHUD'
-
-  target 'Faturah_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  pod 'SoapKit'
 end

@@ -1,25 +1,17 @@
 # Faturah
 
-[![CI Status](http://img.shields.io/travis/mohamedadly/Faturah.svg?style=flat)](https://travis-ci.org/mohamedadly/Faturah)
-[![Version](https://img.shields.io/cocoapods/v/Faturah.svg?style=flat)](http://cocoapods.org/pods/Faturah)
-[![License](https://img.shields.io/cocoapods/l/Faturah.svg?style=flat)](http://cocoapods.org/pods/Faturah)
-[![Platform](https://img.shields.io/cocoapods/p/Faturah.svg?style=flat)](http://cocoapods.org/pods/Faturah)
-
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 - iOS 9.0 or later.
+- SoapKit
 
 ## Installation
 
-Faturah is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "Faturah"
-```
+- Copy 'Faturah' directory into your project.
+- Install 'SoapKit' pod.
 
 # Usage
 
@@ -41,20 +33,20 @@ FaturahTransaction* transaction = [[FaturahTransaction alloc] init];
 //Create Order
 FaturahOrder *order = [[FaturahOrder alloc] init];
 [order addItem:[FaturahOrderItem itemWithID:@"1"
-                                    andName:@"Nokia Mobile"
-                             andDescription:@"Nokia Mobile 6600 Silver Color"
-                                andQuantity:[NSNumber numberWithInt:1]
-                                   andPrice:[NSNumber numberWithInt:10]]];
+andName:@"Nokia Mobile"
+andDescription:@"Nokia Mobile 6600 Silver Color"
+andQuantity:[NSNumber numberWithInt:1]
+andPrice:[NSNumber numberWithInt:10]]];
 [order addItem:[FaturahOrderItem itemWithID:@"2"
-                                    andName:@"LG LCD"
-                             andDescription:@"LG LCD 37 Inch Wide"
-                                andQuantity:[NSNumber numberWithInt:1]
-                                   andPrice:[NSNumber numberWithInt:10]]];
+andName:@"LG LCD"
+andDescription:@"LG LCD 37 Inch Wide"
+andQuantity:[NSNumber numberWithInt:1]
+andPrice:[NSNumber numberWithInt:10]]];
 [order addItem:[FaturahOrderItem itemWithID:@"3"
-                                    andName:@"Laptop DELL"
-                             andDescription:@"Laptop DELL Inspiron 5012 Black Color"
-                                andQuantity:[NSNumber numberWithInt:2]
-                                   andPrice:[NSNumber numberWithInt:15]]];
+andName:@"Laptop DELL"
+andDescription:@"Laptop DELL Inspiron 5012 Black Color"
+andQuantity:[NSNumber numberWithInt:2]
+andPrice:[NSNumber numberWithInt:15]]];
 [order setOrderDeliveryCharge:[NSNumber numberWithInt:5]];
 [order setOrderCustomerName:@"John Doe"];
 [order setOrderCustomerEmail:@"email@website.com"];
@@ -65,8 +57,7 @@ FaturahOrder *order = [[FaturahOrder alloc] init];
 [transaction setOrder:order];
 
 //Prepare Transaction
-[[FaturahTransactionManager sharedManager] prepareTranscation:transaction
-withDelegate:self];
+[[FaturahTransactionManager sharedManager] prepareTranscation:transaction withDelegate:self];
 
 ```
 
